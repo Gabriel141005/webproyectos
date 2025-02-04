@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <h2>Registro para BACK TO</h2>
+    <hr>
+    <form action="home.html" method="get">
+        <label for="nombre">Nombre completo</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" required placeholder="Escribe tu nombre y primer apellido">
+        <br>
+        <label for="contrasenia">Contraseña</label>
+        <br>
+        <input type="password" name="contrasenia" id="contrasenia" placeholder="Escribe tu contraseña">
+        <br>
+        <label for="correo">Correo electrónico</label>
+        <br>
+        <input type="email" name="correo" id="correo" placeholder="Escribe tu correo electrónico">
+        <br>
+        <br>
+        <label for="genero">Género</label>
+        <br>
+        <input type="radio" name="genero" id="genero_m">Masculino
+        <input type="radio" name="genero" id="genero_f">Femenino
+        <br>
+        <label for="ciudad">Ciudad</label>
+        <br>
+        <select name="ciudad" id="ciudad">
+            <option value="LZC" selected>Lázaro Cárdenas</option>
+            <option value="guaca">Guacamayas</option>
+            <option value="5may">5 de Mayo</option>
+            <option value="Mira">La Mira</option>
+            <option value="Orilla">La Orilla</option>
+            <option value="Buenos">Buenos Aires</option>
+        </select>
+        <br>
+        <label for="info">Escribe tu dirección</label>
+        <br>
+        <textarea name="info" id="info" placeholder="Dirección"></textarea>
+        <br>
+        <input type="submit" value="Registrar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
