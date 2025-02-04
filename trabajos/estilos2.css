@@ -1,0 +1,21 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: rebeccapurple;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    
+}
+
+#test {
+  position: sticky;
+  top: 10px;
+  background-color: aqua;
+  padding: 10px;
+}

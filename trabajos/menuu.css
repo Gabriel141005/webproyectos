@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+div{
+    width: 600px;
+    background-color: aqua;
+
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 0;
+    width: 80px;
+    text-align: center;
+background-color: aliceblue;
+}
+nav ul li a{
+    color: brown;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    left: -40px;
+    margin-top: 15px;
+}
+ .submenu li:hover .submenu{
+    display: block;
+}
